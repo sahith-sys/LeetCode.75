@@ -7,7 +7,7 @@ class Solution:
                 sum = sum +1
         
         
-        maxi = 0
+        maxi = sum 
         for i in range(k,len(s)):
             if s[i-k] in vow:
                 sum = sum - 1
