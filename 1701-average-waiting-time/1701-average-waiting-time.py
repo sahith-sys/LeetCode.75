@@ -18,7 +18,7 @@ class Solution:
         start,finish,cus_wait,sums = 0,0,0,0
         
         for cus in customers:
-            arr,timereq = customer
+            arr,timereq = cus
             finish = max(finish, arr) + timereq
             sums = sums + finish - arr
             
